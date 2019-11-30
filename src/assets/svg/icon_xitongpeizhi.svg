@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="125px" height="125px" viewBox="0 0 125 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icon/xitongpeizhi</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M79.0816327,96.7587731 L71.2227404,96.7587731 L71.2227404,84.0114513 C61.0557271,76.9371709 57.7654004,68.03048 61.3517602,57.2913788 C63.9027806,49.6525283 71.0358303,47.1062448 72.4982506,47.1062448 C72.4982506,49.6525283 72.4982506,56.2304274 72.4982506,66.839942 L79.2975947,71.1587629 L86.0969388,66.839942 C86.0969388,56.2304274 86.0969388,49.6525283 86.0969388,47.1062448 C87.559359,47.1062448 94.6924088,49.6525283 97.2434292,57.2913788 C100.829789,68.03048 97.5394622,76.9371709 87.372449,84.0114513 L87.372449,96.7587731 L79.0816327,96.7587731 Z" id="path-1"></path>
+        <filter x="-12.9%" y="-14.1%" width="136.2%" height="128.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="2" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.135699728 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="icon/xitongpeizhi" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <rect id="Rectangle-61-Copy-3" x="0" y="0" width="125" height="125"></rect>
+            <g id="Group-5" transform="translate(0.000000, 15.000000)">
+                <rect id="Rectangle-26-Copy-2" fill="#E0E0E0" x="0" y="38.1942526" width="125" height="58.5645206"></rect>
+                <polygon id="Rectangle-26-Copy-3" fill="#D0D1D2" points="20.4081633 0 104.591837 0 125 19.7336972 125 38.1942526 0 38.1942526 0 19.7336972"></polygon>
+                <path d="M16.579716,21.6434098 L108.420284,21.6434098 C109.828115,21.6434098 110.969388,22.7846824 110.969388,24.1925136 L110.969388,96.7587731 L14.0306122,96.7587731 L14.0306122,24.1925136 C14.0306122,22.7846824 15.1718849,21.6434098 16.579716,21.6434098 Z" id="Rectangle-27-Copy" fill="#FFFFFF"></path>
+                <path d="M16.579716,21.6434098 L108.420284,21.6434098 C109.828115,21.6434098 110.969388,22.7846824 110.969388,24.1925136 L110.969388,38.1942526 L14.0306122,38.1942526 L14.0306122,24.1925136 C14.0306122,22.7846824 15.1718849,21.6434098 16.579716,21.6434098 Z" id="Rectangle-27-Copy-2" fill="#879CAB"></path>
+                <ellipse id="Oval-5-Copy-2" fill="#E6E6E6" cx="24.872449" cy="29.9188312" rx="3.18877551" ry="3.18285438"></ellipse>
+                <ellipse id="Oval-5-Copy-3" fill="#E6E6E6" cx="37.627551" cy="29.9188312" rx="3.18877551" ry="3.18285438"></ellipse>
+                <polygon id="Path-7-Copy" fill-opacity="0.0899999961" fill="#000000" points="72.3140496 47.1062448 86.7346939 60.4742332 86.7346939 66.839942 79.7193878 71.2959381 71.6710238 66.839942 71.6710238 47.9840426"></polygon>
+                <polygon id="Path-8-Copy" fill-opacity="0.0899999961" fill="#000000" points="94.3959087 52.1988118 111.026527 68.7985494 111.026527 96.7671742 86.7346939 96.7671742 86.7346939 83.8862208"></polygon>
+                <g id="Combined-Shape-Copy">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#697985" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <rect id="Rectangle-28-Copy" fill="#D8D8D8" x="21.6836735" y="45.8331031" width="30.6122449" height="35.6479691"></rect>
+                <rect id="Rectangle-29-Copy" fill="#9ECD68" x="21.6836735" y="89.1199226" width="40.8163265" height="7.22340426"></rect>
+                <polygon id="Rectangle-30" fill="#FFFFFF" points="43.3673469 7.88382965 79.0816327 7.88382965 79.0816327 14.2495384 43.3673469 14.2495384"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

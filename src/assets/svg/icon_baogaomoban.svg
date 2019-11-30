@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="125px" height="125px" viewBox="0 0 125 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icon/baogaomoban</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="20.4741379" width="76.5686275" height="21.5517241"></rect>
+        <filter x="-6.5%" y="-23.2%" width="118.3%" height="165.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.102128623 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="6.47058824 63.5775862 87.3529412 63.5775862 87.3529412 85.1293103 6.47058824 85.1293103"></polygon>
+        <filter x="-6.2%" y="-23.2%" width="117.3%" height="165.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.102128623 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="33.4313725" y="42.0258621" width="76.5686275" height="21.5517241"></rect>
+        <filter x="-6.5%" y="-23.2%" width="118.3%" height="165.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.102128623 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-7" x="23.7254902" y="92.6724138" width="80.8823529" height="21.5517241"></rect>
+        <filter x="-6.2%" y="-23.2%" width="117.3%" height="165.0%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.102128623 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="icon/baogaomoban" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <rect id="Rectangle-61-Copy-10" x="0" y="0" width="125" height="125"></rect>
+            <g id="Group-23" transform="translate(8.000000, 0.000000)">
+                <path d="M8.62576065,11.8534483 L102.452671,11.8534483 C103.64294,11.8534483 104.607843,12.8183518 104.607843,14.0086207 L104.607843,122.844828 C104.607843,124.035096 103.64294,125 102.452671,125 L8.62576065,125 C7.43549179,125 6.47058824,124.035096 6.47058824,122.844828 L6.47058824,14.0086207 C6.47058824,12.8183518 7.43549179,11.8534483 8.62576065,11.8534483 Z" id="Rectangle-41" fill="#E6E6E6"></path>
+                <rect id="Rectangle-42" fill="#E6E6E6" x="35.5882353" y="0" width="40.9803922" height="16.1637931" rx="2.15517241"></rect>
+                <polygon id="Rectangle-6" fill="#FFFFFF" points="15.0980392 20.4741379 95.9803922 20.4741379 95.9803922 116.37931 15.0980392 116.37931"></polygon>
+                <g id="Rectangle-43">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Rectangle-43-Copy-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+                <rect id="Rectangle-7" fill="#CED5DA" x="31.2745098" y="71.1206897" width="35.5882353" height="3.23275862"></rect>
+                <rect id="Rectangle-7-Copy" fill="#CED5DA" x="31.2745098" y="77.5862069" width="24.8039216" height="3.23275862"></rect>
+                <g id="Rectangle-43-Copy">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    <use fill="#879CAB" fill-rule="evenodd" xlink:href="#path-5"></use>
+                </g>
+                <polygon id="Path-23" fill-opacity="0.0500000007" fill="#000000" points="87.3547385 85.1293103 6.47058824 85.1293103 23.7339134 102.379106 104.623852 102.379106"></polygon>
+                <g id="Rectangle-43-Copy-3">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                    <use fill="#CED5DA" fill-rule="evenodd" xlink:href="#path-7"></use>
+                </g>
+                <rect id="Rectangle-44" fill="#FFFFFF" x="43.1372549" y="4.31034483" width="24.8039216" height="6.46551724" rx="3.23275862"></rect>
+                <path d="M18.8738168,31.25 L18.8738168,27.4742224 L22.1065754,27.4742224 L22.1065754,31.25 L25.8823529,31.25 L25.8823529,34.4827586 L22.1065754,34.4827586 L22.1065754,38.2585362 L18.8738168,38.2585362 L18.8738168,34.4827586 L15.0980392,34.4827586 L15.0980392,31.25 L18.8738168,31.25 Z" id="Combined-Shape" fill="#9ECD68"></path>
+                <path d="M34.5098039,32.8663793 L82.5158559,32.8663793" id="Line-2-Copy" stroke="#9ECD68" stroke-width="3.23275862" stroke-linecap="square" stroke-dasharray="2.155172413793104,4.310344827586207"></path>
+                <path d="M33.9676302,99.137931 L33.9735463,99.137931 C36.0565168,99.137931 37.745098,100.826512 37.745098,102.909483 L37.745098,102.909483 C37.745098,104.992453 36.0565168,106.681034 33.9735463,106.681034 L33.9676302,106.681034 C31.8846597,106.681034 30.1960784,104.992453 30.1960784,102.909483 L30.1960784,102.909483 C30.1960784,100.826512 31.8846597,99.137931 33.9676302,99.137931 Z" id="Rectangle-46" fill="#697985"></path>
+                <polygon id="Rectangle-47" fill="#879CAB" points="42.0588235 99.137931 100.294118 99.137931 100.294118 114.224138 42.0588235 114.224138"></polygon>
+                <polygon id="Path-24" fill-opacity="0.0500000007" fill="#000000" points="0.539215686 42.0258621 22.1145823 63.5843201 33.9825395 63.5843201 33.9825395 42.0258621"></polygon>
+                <polygon id="Rectangle-48" fill="#CED5DA" points="20.4901961 71.1206897 26.9607843 71.1206897 26.9607843 80.8189655 20.4901961 80.8189655"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,361 @@
+/* 
+    此文件存放:
+    - 通用组件自定义样式
+    - 所有elementUI组件自定义样式
+*/
+
+input,
+.el-input__inner{
+    background-color: transparent !important;
+}
+
+.el-input.is-active .el-input__inner,
+.el-input__inner:focus,
+.el-range-editor.is-active,
+.el-range-editor.is-active:hover,
+.el-textarea__inner:focus {
+    border-color: #85BF67 !important;
+}
+
+/* 全局复选框样式 */
+.el-checkbox{
+    .el-checkbox__inner{
+        width: 18px;
+        height: 18px;
+        border-color:#d1d8de; 
+    }
+    .el-checkbox__inner:hover,
+    .el-checkbox__inner:focus{
+        border-color: #85BF67;
+        outline: none;
+    }
+    .el-checkbox__input.is-focus .el-checkbox__inner{
+        border-color: #85BF67;
+        outline: none;
+    }
+    .el-checkbox__input.is-checked:not(.is-disabled)+.el-checkbox__label{
+        color: unset;
+    }
+    .el-checkbox__input.is-checked .el-checkbox__inner, 
+    .el-checkbox__input.is-indeterminate .el-checkbox__inner{
+        background-color: transparent;
+        border-color: #d1d8de;
+    }
+    .el-checkbox__inner::after{
+        border-color: #85BF67;
+        border-width: 2px;
+        width: 4px;
+        height: 9px;
+        left: 5px;
+    }
+}
+
+/* 全局单选框样式 */
+.el-radio{
+    .el-radio__input{
+
+    }
+    .el-radio__inner{
+        width: 10px;
+        height: 10px;
+    }
+    .el-radio__input.is-checked .el-radio__inner{
+        border-color: #85BF67;
+        background: transparent;
+    }
+    .el-radio__input.is-checked+.el-radio__label{
+        color: inherit;
+    }
+    .el-radio__inner::after{
+        background-color: #85BF67;
+        width: 6px;
+        height: 6px;
+    }
+}
+
+
+
+/* 全局按钮样式 */
+.btn.el-button{
+    width: 100px;
+    height: 40px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 25px;
+    padding: 0;
+    border: none;
+}
+
+.btn.primary{
+    border-color: #85bf67;
+    background-color: #85bf67;
+    padding: 12px 15px;
+    font-family: Roboto-Regular;
+    line-height: 2px;
+}
+.btn.primary:hover,
+.btn.primary:focus{
+    background-color: #96d975;
+    color: #ffffff;
+}
+
+.btn.secondary{
+    border-color: #697c8b;
+    background-color: #697c8b;
+    padding: 12px 15px;
+    font-family:Roboto-Regular;
+    font-size:14px;
+    line-height: 2px;
+}
+.btn.secondary:hover,
+.btn.secondary:focus{
+    background-color: #7c93a3;
+    color: #ffffff;
+}
+
+.btn.primary.disabled,
+.btn.secondary.disabled{
+    opacity: 0.6;
+}
+
+
+/* 全局Tabs标签页样式 */
+.radioGroup{
+    .el-radio-button__inner{
+        padding: 12px 15px;
+        background: transparent;
+    }
+    .el-radio-button__orig-radio:checked+.el-radio-button__inner{
+        background-color: #879cab;
+        border-color: #879cab;
+        box-shadow: -1px 0 0 0 #879cab;
+    }
+    .el-radio-button__orig-radio:not(:checked)+.el-radio-button__inner:hover{
+        color: #879cab;
+    }
+    .el-radio-button:focus:not(.is-focus):not(:active):not(.is-disabled){
+        box-shadow: none;
+    } 
+}
+
+
+/* 输入框focus样式 */
+textarea:focus{
+    outline-width: 1px;
+    outline-color: #85bf67;
+}
+
+
+/* 全局滑动条样式 */
+ul::-webkit-scrollbar,
+div::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 100px;
+    height: 8px;
+}
+ul::-webkit-scrollbar-thumb,
+div::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: rgba(128,128,128,0.5);
+}
+ul::-webkit-scrollbar-track,
+div::-webkit-scrollbar-track {
+    border-radius: 0;
+}
+
+
+
+/* 全局自定义列表样式 */
+#pageContainer{
+    .el-table__body-wrapper{
+        height: calc(100% - 40px);
+    }
+    //表头样式
+    .el-table th{
+        padding: 0;
+        background-color: #f7f9fa;
+        border: none;
+    }
+    .el-table th div{
+        color: #7b8994;
+    }
+    .el-table th>.cell{
+        font-size: 12px;
+        font-weight: normal;
+        line-height: 40px;
+    }
+    //列表内容样式
+    .el-table td{
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+    .el-table .cell{
+        line-height: 36px;
+        white-space: nowrap;
+    }
+    //列表斑马纹
+    .el-table--striped .el-table__body tr.el-table__row--striped td{
+        background: #f7f9fa;
+    }
+    //列表选中样式
+    .el-table .el-table__body tr.current-row>td {
+        background-color: #879cab;
+    }
+    .el-table .el-table__body tr.current-row>td div {
+        color: #fff;
+    }
+    //选中框样式
+    .el-table .el-checkbox__inner{
+        width: 18px;
+        height: 18px;
+        border: 1px solid #d1d8de;
+        border-radius: 3px;
+    }
+    .el-table .el-checkbox__input.is-checked .el-checkbox__inner, 
+    .el-table .el-checkbox__input.is-indeterminate .el-checkbox__inner{
+        background: transparent;
+    }
+    .el-table .el-checkbox__input.is-indeterminate .el-checkbox__inner::before{
+        height: 4px;
+        background-color: #85BF67;
+        top: 6px;
+        transform: scale(0.6);
+    }
+    .el-table .el-checkbox__inner::after{
+        border-color: #85BF67;
+        border-width: 2px;
+        left: 5px;
+        top: 2px;
+        height: 8px;
+        width: 4px;
+    }
+    //列表hover效果
+    .el-table--enable-row-hover .el-table__body tr:hover:not(.current-row)>td{
+        background: rgba(135,156,171,0.3);
+    }
+    //急诊病人标红
+    .el-table .warning-row td div{
+        color: rgb(228, 105, 79); 
+    }
+
+    /* 全局列表右键菜单样式 */
+    #contextmenu{
+        position: absolute;
+        z-index: 1;
+        background-color: #ffffff;
+        border-radius: 2px;
+        box-shadow: 0px 0px 10px 0px rgba(116, 136, 150, 0.2737205615942029);
+        ul{
+            list-style: none;
+            width: 180px;
+            li{
+                font-size: 12px;
+                color: #354552;
+                text-align: left;
+                height: 18px;
+                line-height: 18px;
+                padding: 6px 10px;
+                cursor: pointer;
+            }
+            li:hover{
+                color: #ffffff;
+                background-color: #879cab;
+            }
+        }
+    }
+}
+
+
+
+/* 分页自定义样式 */
+#paginationContainer{
+    height: 50px;
+    justify-content: space-between;
+
+    > div{
+        margin: auto 30px;
+        padding: 0;
+    }
+
+    .el-pagination.is-background .btn-next,
+    .el-pagination.is-background .btn-prev,
+    .el-pagination.is-background .el-pager li{
+        background: transparent;
+        border: 1px solid #d1d8de;
+        height: 30px;
+        font-weight: normal;
+        font-size: 14px;
+    }
+    .el-pagination.is-background
+    .el-pager li:not(.disabled).active{
+        background-color: #748896;
+        border-color: #748896;
+    }
+
+    .el-pagination.is-background 
+    .el-pager li:not(.disabled):not(.active):hover{
+        color: #606266;
+    }
+}
+
+
+
+/* 全局对话框样式 */
+.el-dialog__wrapper{
+    .el-dialog{
+        margin: 0 !important;
+        width: auto !important;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translateX(-50%) translateY(-50%) !important;
+        transform: translateX(-50%) translateY(-50%) !important;
+    }
+
+    .el-dialog__header{
+        padding: 10px 0;
+        margin: 0 30px;
+        box-shadow: 0px -1px 0px 0px #d1d8de inset;
+        
+        span{
+            font-size: 16px;
+        }
+
+        .el-dialog__headerbtn{
+            font-size: 24px;
+            top: 12px;
+            right: 26px;
+        }
+    }
+
+    .el-dialog__headerbtn:focus .el-dialog__close, 
+    .el-dialog__headerbtn:hover .el-dialog__close{
+        color: #7c93a3;
+    }
+
+    .el-dialog__body,
+    .el-dialog__footer {
+        margin: 20px 30px;
+        padding: 0;
+    }
+}
+
+
+
+/* 全局下拉菜单样式 */
+
+.el-dropdown{
+    .el-button:focus,
+    .el-button:hover{
+        color: inherit;
+        border-color: #DCDFE6;
+        background-color: transparent;
+    }
+}
+
+
+

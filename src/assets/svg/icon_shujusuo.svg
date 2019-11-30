@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="125px" height="125px" viewBox="0 0 125 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icon/shujusuo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="108.444444" height="60.1030928" rx="2.25925926"></rect>
+        <filter x="-6.0%" y="-10.8%" width="115.7%" height="128.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1309726 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-22.1%" y="-22.0%" width="144.3%" height="145.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.135728034 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="icon/shujusuo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <rect id="Rectangle-61-Copy-6" x="0" y="0" width="125" height="125"></rect>
+            <g id="Group-19" transform="translate(2.000000, 8.000000)">
+                <rect id="Rectangle-49" fill="#E6E6E6" x="13.5555556" y="48.7628866" width="108.444444" height="60.1030928" rx="2.25925926"></rect>
+                <g id="Rectangle-51">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#879CAB" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <rect id="Rectangle-52" fill="#CED5DA" x="12.4259259" y="13.6082474" width="75.6851852" height="7.93814433"></rect>
+                <polygon id="Rectangle-52-Copy-2" fill="#FFFFFF" points="25.9814815 74.8453608 101.666667 74.8453608 101.666667 97.5257732 25.9814815 97.5257732"></polygon>
+                <rect id="Rectangle-52-Copy" fill="#9ECD68" x="12.4259259" y="30.6185567" width="46.3148148" height="7.93814433"></rect>
+                <path d="M29.9351852,83.9175258 L54.8126972,108.891739 L119.740741,108.891739 C120.988495,108.891739 122,107.880234 122,106.63248 L122,79.3814433 L88.3454988,43.3245346 L29.9351852,83.9175258 Z" id="Path-26" fill-opacity="0.0899999961" fill="#000000"></path>
+                <g id="Group-13" filter="url(#filter-3)" transform="translate(28.240741, 23.814433)">
+                    <path d="M4.06666667,18.371134 L56.9333333,18.371134 C59.1792913,18.371134 61,20.1918427 61,22.4378007 L61,57.1704467 C61,59.4164047 59.1792913,61.2371134 56.9333333,61.2371134 L4.06666667,61.2371134 C1.82070868,61.2371134 2.75050525e-16,59.4164047 0,57.1704467 L0,22.4378007 C-2.75050525e-16,20.1918427 1.82070868,18.371134 4.06666667,18.371134 Z" id="Rectangle-50" fill="#697985"></path>
+                    <rect id="Rectangle-8" stroke="#697985" stroke-width="7.11666667" x="16.775" y="3.55833333" width="26.4333333" height="28.6049828" rx="4.06666667"></rect>
+                    <g id="Group-12" transform="translate(22.366667, 27.556701)" fill="#CED5DA">
+                        <path d="M6.1,16.0726653 C2.592038,15.1662687 0,11.9694867 0,8.16494845 C0,3.65557194 3.64141737,0 8.13333333,0 C12.6252493,0 16.2666667,3.65557194 16.2666667,8.16494845 C16.2666667,11.9694867 13.6746287,15.1662687 10.1666667,16.0726653 L10.1666667,24.4948454 L6.1,24.4948454 L6.1,16.0726653 Z" id="Combined-Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
